@@ -1,9 +1,8 @@
 0.10_01 - Tue Jan  5 17:58:25 2010
 	* The initial release
 
-0.10_03 - Wed Jan  6 17:09:48 2010
-	* Setup the inheritance for the whole chain so I know
-	I get the right parent classes.
+0.10_04 - Sun Nov  6 10:17:55 2011
+	* Document basedir
 
 0.10_02 - Wed Jan  6 11:37:02 2010
 	* I really need to fix my local Test::Prereq so I catch
