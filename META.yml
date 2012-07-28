@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Module-Starter-AddModule
-version:            1.001
+version:            1.002
 abstract:           Add a module to a distribution
 author:
     - brian d foy <bdfoy@cpan.org>
@@ -16,7 +16,7 @@ requires:
     Module::Starter::Simple:  0
     Module::Starter::Smart:  0
     parent:               0
-    Test::More:           0
+    Test::More:           0.95
 no_index:
     directory:
         - t
