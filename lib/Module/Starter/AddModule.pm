@@ -19,7 +19,9 @@ BEGIN {
 
 use Cwd;
 
-$VERSION = '1.002';
+$VERSION = '1.003';
+
+=encoding utf8
 
 =head1 NAME
 
@@ -29,7 +31,7 @@ Module::Starter::AddModule - Add a new module to a distribution
 
 	# in the module-starter config
 	
-	plugins: Module::Starter::AddModule;
+	plugins: Module::Starter::AddModule
 	make: /whatever/make/you/like/dmake
 
 =head1 DESCRIPTION
