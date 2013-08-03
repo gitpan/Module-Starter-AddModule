@@ -19,7 +19,7 @@ BEGIN {
 
 use Cwd;
 
-$VERSION = '1.003';
+$VERSION = '1.004';
 
 =encoding utf8
 
@@ -33,6 +33,10 @@ Module::Starter::AddModule - Add a new module to a distribution
 	
 	plugins: Module::Starter::AddModule
 	make: /whatever/make/you/like/dmake
+
+	# from the command line
+	# the --dist option specifies the dist directory
+	% module-starter --module=Add::This::Module --dist=.
 
 =head1 DESCRIPTION
 
@@ -127,7 +131,7 @@ brian d foy, C<< <bdfoy@cpan.org> >>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2010-2012, brian d foy, All Rights Reserved.
+Copyright (c) 2010-2013, brian d foy, All Rights Reserved.
 
 You may redistribute this under the same terms as Perl itself.
 
